@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+
+.navbar {
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar>a {
+    color: white;
+    text-decoration: none;
+    font-size: 58px;
+    position: absolute;
+    left: 5%;
+    top: 4px;
+
+}
+
+.navbar>ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    left: 15%;
+    top: 20px;
+    font-family: 'Work Sans';
+    font-weight: 300;
+}
+
+.navbar>ul>a {
+    color: white;
+    text-decoration: none;
+    margin: 10px 50px;
+    font-size: 20px;
+    transition: .3s;
+}
+
+.navbar>ul>a>i {
+    opacity: 0;
+}
+
+.visi {
+    opacity: 1;
+}
+
+.navbar>button {
+    position: absolute;
+    left: 85%;
+    top: 10px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.opening {
+    height: 100vh;
+    width: 100%;
+}
+
+.opening>.cover {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(iphonebackground.jpg);
+    text-align: center;
+    font-family: 'Work Sans';
+
+}
+
+.cover>h1 {
+    color: white;
+    font-size: 200px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-weight: 300;
+}
+
+.cover>p {
+    color: white;
+    font-size: 200;
+    position: absolute;
+    top: 80%;
+    left: 8%;
+    font-size: 70px;
+}
+
+.filler {
+    height: 20vh;
+    width: 100%;
+
+}
+
+.content1 {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    font-family: 'Work Sans';
+}
+
+.stuff {
+    width: 40%;
+    position: absolute;
+    text-align: left;
+    left: 10%;
+    top: 50px;
+}
+
+.stuff>h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: 200;
+}
+
+.stuff>p {
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.stuff>h3 {
+    color: rgb(29, 29, 29);
+    text-align: right;
+    margin-top: 20px;
+    font-weight: 200;
+}
+
+.content1>img {
+    position: absolute;
+    left: 55%;
+    top: 50px;
+    background-color: slategrey;
+    text-align: center;
+}
+
+
+.content2 {
+    background-image: url(phones.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Work Sans';
+    position: relative;
+}
+
+.content2>h1 {
+    font-size: 70px;
+    font-weight: 100;
+    text-align: center;
+    color: white;
+}
+
+.stuff2 {
+    height: 20vh;
+    width: 18%;
+    color: white;
+    position: absolute;
+    left: 75%;
+    top: 80%;
+    text-align: right;
+}
+
+.stuff2>h2 {
+    font-weight: 200;
+}
+
+.stuff2>p {
+    font: bold;
+}
+
+.content3 {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    font-family: 'Work Sans';
+}
+
+.content3>img {
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    left: 10%;
+    top: 200px;
+}
+
+.content3>h1 {
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content3>.getpro {
+    position: absolute;
+    left: 60%;
+    top: 70%;
+}
+
+.getpro>a {
+    color: black;
+    text-decoration: none;
+    text-align: right;
+    transition: .3s;
+    width: 50px;
+}
+
+.getpro>a:hover {
+    color: purple;
+}
